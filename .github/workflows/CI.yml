@@ -37,7 +37,7 @@ jobs:
         run: npm install
       
      # - name: Check linting and formatting
-        # Custom script for checking the linting and formatting being in place
+    # Custom script for checking the linting and formatting being in place
      #   run: npm run lint
       
       # Run test cases and this could ensure minimum coverage as well if set
