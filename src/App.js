@@ -1,12 +1,15 @@
 
+import { Paper } from '@mui/material';
 import './App.css';
-import { Input } from './components/Input';
+import { InputComponent } from './components/InputComponent';
+import { MinMaxWeather } from './components/MinMaxWeather';
 
 function App() {
   return (
-    <div className="App">
-      <Input/>
-    </div>
+    <Paper elevation={3} className="App">
+      <InputComponent />
+      <MinMaxWeather />
+    </Paper>
   );
 }
 
